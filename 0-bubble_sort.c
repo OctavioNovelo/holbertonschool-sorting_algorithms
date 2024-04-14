@@ -8,9 +8,9 @@ void bubble_sort(int *array, size_t size)
 {
 int temp;
 size_t i, j;
-for (i = 0; i < size - 1; + + i)
+for (i = 0; i < size - 1; i + 1)
 {
-for (j = 0; j < size - 1; + + j)
+for (j = 0; j < size - 1; j + 1)
 {
 if (array[j] > array[j + 1])
 {
