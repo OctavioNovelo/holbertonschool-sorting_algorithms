@@ -24,7 +24,9 @@ void print_list(const listint_t *list);
 
 /**
  * bubble_sort - Algorithm bubble sort
- * insertion_sort - Algorithm insertion sort
+ * @array: Array of ints
+ * @size: Size of array
+ * insertion_sort_list - Algorithm insertion sort
  * selection_sort - Algorithm selection sort
  * quick_sort - Algorithm quick sort
  */
