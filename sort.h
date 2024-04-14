@@ -21,6 +21,14 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 /** Prototypes **/
+
+/**
+ * bubble_sort - Algorithm bubble sort
+ * insertion_sort - Algorithm insertion sort
+ * selection_sort - Algorithm selection sort
+ * quick_sort - Algorithm quick sort
+ */
+
 void bubble_sort(int *array, size_t size); /** 0 **/
 void insertion_sort_list(listint_t **list); /** 1 **/
 void selection_sort(int *array, size_t size); /** 2 **/
