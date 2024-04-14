@@ -16,14 +16,14 @@ struct listint_s *prev;
 struct listint_s *next;
 } listint_t;
 
-/** Print functions */
+/** Print functions **/
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-/** Prototypes */
-void bubble_sort(int *array, size_t size); /** 0 */
-void insertion_sort_list(listint_t **list); /** 1 */
-void selection_sort(int *array, size_t size); /** 2 */
-void quick_sort(int *array, size_t size); /** 3 */
+/** Prototypes **/
+void bubble_sort(int *array, size_t size); /** 0 **/
+void insertion_sort_list(listint_t **list); /** 1 **/
+void selection_sort(int *array, size_t size); /** 2 **/
+void quick_sort(int *array, size_t size); /** 3 **/
 
 #endif /* SORT_H */
