@@ -6,13 +6,13 @@
 
 void insertion_sort_list(listint_t **list)
 {
-	int i;
+	size_t i;
 	int val;
 	int pos;
 	size_t lista = sizeof(listint_t);
 	int tmp;
 
-	for ( i = 0, i < lista, i++)
+	for ( i = 0; i < lista; i++)
 	{
 		val = next;
 		pos = next;
