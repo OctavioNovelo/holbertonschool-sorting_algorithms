@@ -48,4 +48,14 @@ void selection_sort(int *array, size_t size); /** 2 **/
  * @size: Size of array
  */
 void quick_sort(int *array, size_t size); /** 3 **/
+
+/**
+ * swap - Function that swaps two values
+ *
+ * @a: Fisrt value
+ * @b: Second value
+ * Return: 0
+ */
+void swap(int *a, int *b);
+
 #endif /* SORT_H */
