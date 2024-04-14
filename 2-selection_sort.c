@@ -13,7 +13,7 @@ void selection_sort(int *array, size_t size)
 	size_t i, j;
 	int val;
 
-	for (i = 0, i < size - 1, i++)
+	for (i = 0; i < size - 1; i++)
 	{
 		val = array[i];
 	}
