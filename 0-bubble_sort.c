@@ -5,12 +5,11 @@
 void bubble_sort(int *array, size_t size)
 {
 int temp;
-int i, j;
-int n = sizeof(size_t size);
-
-for (i = 0; i < n-1; ++i)
+size_t i, j;
+ 
+for (i = 0; i < size-1; ++i)
 {
-  for (j = 0; j < n-1; ++j)
+  for (j = 0; j < size-1; ++j)
     {
      if (array[j]>array[j+1])
        {
