@@ -14,7 +14,8 @@ typedef struct listint_s
 const int n;
 struct listint_s *prev;
 struct listint_s *next;
-} typedef struct listint_s listint_t;
+};
+typedef struct listint_s listint_t;
 
 /** Print functions **/
 void print_array(const int *array, size_t size);
