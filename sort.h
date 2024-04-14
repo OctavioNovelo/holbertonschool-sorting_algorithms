@@ -58,4 +58,21 @@ void quick_sort(int *array, size_t size); /** 3 **/
  */
 void swap(int *a, int *b);
 
+/**
+ * partition - Function that sets the pivot for quick_sort
+ * @array: Array to partition
+ * @size: Size of array
+ * Return: (i + 1)
+ */
+size_t partition(int array[], size_t size);
+
+/**
+ * print_sort - Function that prints as it should
+ * @array: Array to be printed
+ * @size: Size of array
+ * @init: Should initialize array
+ * Return: 0
+ */
+void print_sort(int array[], size_t size, int init);
+
 #endif /* SORT_H */
