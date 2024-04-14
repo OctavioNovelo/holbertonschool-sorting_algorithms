@@ -12,7 +12,7 @@ size_t i, j, val;
 for (i = 0; i < size - 1; i++)
 {
 val = i;
-for (j = 1; j < size; j++)
+for (j = i + 1; j < size; j++)
 {
 if (array[j] < array[val])
 {
