@@ -26,14 +26,27 @@ void print_list(const listint_t *list);
  * bubble_sort - Algorithm bubble sort
  * @array: Array of ints
  * @size: Size of array
- * insertion_sort_list - Algorithm insertion sort
- * selection_sort - Algorithm selection sort
- * quick_sort - Algorithm quick sort
  */
-
 void bubble_sort(int *array, size_t size); /** 0 **/
+
+/**
+ * insertion_sort_list - Algorithm
+ * @list: List
+ */
 void insertion_sort_list(listint_t **list); /** 1 **/
+
+/**
+ * selection_sort - Algorithm
+ * @array: Array of ints
+ * @size: Size of array
+ */
 void selection_sort(int *array, size_t size); /** 2 **/
+
+/**
+ * quick_sort - Algorithm
+ * @array: Array of ints
+ * @size: Size of array
+ */
 void quick_sort(int *array, size_t size); /** 3 **/
 
 #endif /* SORT_H */
