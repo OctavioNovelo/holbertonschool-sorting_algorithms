@@ -17,14 +17,14 @@ void selection_sort(int *array, size_t size)
 	{
 		val = array[i];
 	}
-	for (j < size - 1)
+	for (j = 1; j < size - 1; j++)
 	{
-		if (array[i] < )
+		if (array[j] < val)
 		{
 			temp = array[j];
-			array[i] = temp;
-			print_array(array, size);
 		}
+		array[i] = temp;
+		print_array(array, size);
 	}
 }
 
