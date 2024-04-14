@@ -32,7 +32,7 @@ else
 *list = current;
 prev_node->prev = current;
 print_list(*list);
-_putchar('\n');
+putchar('\n');
 current = prev_node;
 }
 current = next_node;

@@ -48,10 +48,4 @@ void selection_sort(int *array, size_t size); /** 2 **/
  * @size: Size of array
  */
 void quick_sort(int *array, size_t size); /** 3 **/
-
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- */
-int _putchar(char c);
 #endif /* SORT_H */
